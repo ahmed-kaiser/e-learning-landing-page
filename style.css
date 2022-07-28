@@ -2,17 +2,9 @@
     height: 250px;
     width: 100%;
 }
-
-@media (min-width: 576px) {
-    .max-h{
-        height: 300px;
-    }
-}
-
-@media (min-width: 992px) {
-    .max-h{
-        height: 500px;
-    }
+.course-img{
+    width: 100%;
+    height: 250px;
 }
 
 .bg-light-dark{
@@ -30,4 +22,21 @@
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
+}
+
+@media (min-width: 576px) {
+    .max-h{
+        height: 300px;
+    }
+
+    .course-img{
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .max-h{
+        height: 500px;
+    }
 }
