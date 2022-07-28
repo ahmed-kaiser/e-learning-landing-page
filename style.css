@@ -24,6 +24,10 @@
     text-align: center;
 }
 
+.bg-image{
+    background-image: linear-gradient(to bottom, white, rgba(110, 201, 240, 0.267));
+}
+
 @media (min-width: 576px) {
     .max-h{
         height: 300px;
@@ -32,6 +36,12 @@
     .course-img{
         width: 350px;
         height: auto;
+    }
+}
+
+@media (min-width: 776px){
+    .bg-image{
+        background-image: linear-gradient(to right, white, rgba(110, 201, 240, 0.267));
     }
 }
 
