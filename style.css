@@ -2,10 +2,6 @@
     height: 250px;
     width: 100%;
 }
-.course-img{
-    width: 100%;
-    height: 250px;
-}
 
 .bg-light-dark{
     background-color: rgba(0, 0, 0, 0.474);
@@ -28,14 +24,17 @@
     background-image: linear-gradient(to bottom, white, rgba(110, 201, 240, 0.267));
 }
 
+.ellipsis__text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 @media (min-width: 576px) {
     .max-h{
         height: 300px;
-    }
-
-    .course-img{
-        width: 350px;
-        height: auto;
     }
 }
 
