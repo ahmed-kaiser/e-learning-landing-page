@@ -1,269 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechArt</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechArt</title>
 
-    <!-- Bootstrap CSS CDN link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <!-- Bootstrap CSS CDN link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- ====== Header section start ====== -->
-    <header>
-        <!-- ---- Navigation section start ---- -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-              <a class="navbar-brand fw-bold fs-4" href="#">TechArt</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav flex-grow-1 justify-content-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Success</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="#">Log-In</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info fw-semibold" href="#">Register</a>
-                    </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-        <!-- ---- Navigation section end ---- -->
-
-        <!-- ---- Slider start ---- -->
-        <div id="carouselExampleDark" class="carousel slide container my-2" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./images/cover/cover-1.jpg" class="img-fluid max-h" alt="...">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white bg-light-dark">
-                  <h5 class="fs-1 fw-bold">Get Started Digital <br> Learning</h5>
-                  <p class="w-50 d-none d-md-block">“The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn.” – Alvin Toffler</p>
-                  <button class="btn btn-info mt-md-0 mt-3 fw-semibold text-white">Get Started</button>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="./images/cover/cover-3.jpg" class="img-fluid max-h" alt="...">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white bg-light-dark">
-                  <h5 class="fs-1 fw-bold">Get Started Digital <br> Learning</h5>
-                  <p class="w-50 d-none d-md-block">“Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is most important.” – Bill Gates</p>
-                  <button class="btn btn-info mt-md-0 mt-3 fw-semibold text-white">Get Started</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./images/cover/cover-4.jpg" class="img-fluid max-h" alt="...">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white bg-light-dark">
-                  <h5 class="fs-1 fw-bold">Get Started Digital <br> Learning</h5>
-                  <p class="w-50 d-none d-md-block">“Technology will never replace great teachers, but in the hands of great teachers, it’s transformational.” – George Couros</p>
-                  <button class="btn btn-info mt-md-0 mt-3 fw-semibold text-white">Get Started</button>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+  <!-- ====== Header section start ====== -->
+  <header>
+    <!-- ---- Navigation section start ---- -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#">TechArt</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav flex-grow-1 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Success</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#">Log-In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info fw-semibold" href="#" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Register</a>
+            </li>
+          </ul>
         </div>
-        <!-- ---- Slider end ---- -->
-    </header>
-    <!-- ====== Header section end ====== -->
+      </div>
+    </nav>
+    <!-- ---- Navigation section end ---- -->
 
-    <!-- ====== Main content section start ====== -->
-    <main>
-        <!-- ====== Courses section start ====== -->
-        <section class="container my-5">
-            <div class="row g-3 justify-content-center pt-5">
-              <div class="col-12 d-flex flex-column align-items-center">
-                <h2 class="fw-bold text-center">Discover Our Popular Courses</h2>
-                <p class="text-center px-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <div class="d-sm-flex border shadow-sm">
-                  <div class="course-img">
-                    <img src="./images/courses/course1.jpg" alt="" class="img-fluid w-100 h-100">
-                  </div>
-                  <div class="p-2">
-                    <h5 class="fw-bold">Full Stack Development</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab architecto ut sed laudantium.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="fs-6 fw-semibold">Price: 1000BDT</span>
-                      <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <div class="d-sm-flex border shadow-sm">
-                  <div class="course-img">
-                    <img src="./images/courses/course2.jpg" alt="" class="img-fluid w-100 h-100"> 
-                  </div>
-                  <div class="p-2">
-                    <h5 class="fw-bold">Python Programming</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab architecto ut sed laudantium.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="fs-6 fw-semibold">Price: 1000BDT</span>
-                      <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <div class="d-sm-flex border shadow-sm">
-                  <div class="course-img">
-                    <img src="./images/courses/course7.jpg" alt="" class="img-fluid w-100 h-100"> 
-                  </div>
-                  <div class="p-2">
-                    <h5 class="fw-bold">Java Programming</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab architecto ut sed laudantium.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="fs-6 fw-semibold">Price: 1000BDT</span>
-                      <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <div class="d-sm-flex border shadow-sm">
-                  <div class="course-img">
-                    <img src="./images/courses/course4.jpg" alt="" class="img-fluid w-100 h-100"> 
-                  </div>
-                  <div class="p-2">
-                    <h5 class="fw-bold">Android App Development</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab architecto ut sed laudantium.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="fs-6 fw-semibold">Price: 1000BDT</span>
-                      <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <div class="d-sm-flex border shadow-sm">
-                  <div class="course-img">
-                    <img src="./images/courses/course5.jpg" alt="" class="img-fluid w-100 h-100"> 
-                  </div>
-                  <div class="p-2">
-                    <h5 class="fw-bold">UI/UX Design</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab architecto ut sed laudantium.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="fs-6 fw-semibold">Price: 1000BDT</span>
-                      <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-12">
-                <div class="d-sm-flex border shadow-sm">
-                  <div class="course-img">
-                    <img src="./images/courses/course6.jpg" alt="" class="img-fluid w-100 h-100"> 
-                  </div>
-                  <div class="p-2">
-                    <h5 class="fw-bold">Data structure & Algorithm</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab architecto ut sed laudantium.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="fs-6 fw-semibold">Price: 1000BDT</span>
-                      <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 text-center pt-4">
-                <button class="btn btn-info fw-bold text-white">See More Courses</button>
-              </div>
-            </div>
-        </section>
-        <!-- ====== Courses section end ====== -->
+    <!-- ---- Slider start ---- -->
+    <div id="carouselExampleDark" class="carousel slide container my-2" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./images/cover/cover-1.jpg" class="img-fluid max-h" alt="...">
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white bg-light-dark">
+            <h5 class="fs-1 fw-bold">Get Started Digital <br> Learning</h5>
+            <p class="w-50 d-none d-md-block">“The illiterate of the 21st century will not be those who cannot read and
+              write, but those who cannot learn, unlearn, and relearn.” – Alvin Toffler</p>
+            <button class="btn btn-info mt-md-0 mt-3 fw-semibold text-white">Get Started</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/cover/cover-3.jpg" class="img-fluid max-h" alt="...">
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white bg-light-dark">
+            <h5 class="fs-1 fw-bold">Get Started Digital <br> Learning</h5>
+            <p class="w-50 d-none d-md-block">“Technology is just a tool. In terms of getting the kids working together
+              and motivating them, the teacher is most important.” – Bill Gates</p>
+            <button class="btn btn-info mt-md-0 mt-3 fw-semibold text-white">Get Started</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/cover/cover-4.jpg" class="img-fluid max-h" alt="...">
+          <div
+            class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white bg-light-dark">
+            <h5 class="fs-1 fw-bold">Get Started Digital <br> Learning</h5>
+            <p class="w-50 d-none d-md-block">“Technology will never replace great teachers, but in the hands of great
+              teachers, it’s transformational.” – George Couros</p>
+            <button class="btn btn-info mt-md-0 mt-3 fw-semibold text-white">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ---- Slider end ---- -->
+  </header>
+  <!-- ====== Header section end ====== -->
 
-        <!-- ====== About TechArt section start ====== -->
-        <section class="container py-5">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-12 align-self-sm-center">
-              <img src="./images/other/person1.jpg" alt="" class="img-fluid w-100">
+  <!-- ====== Main content section start ====== -->
+  <main>
+    <!-- ====== Courses section start ====== -->
+    <section class="container my-5">
+      <div class="row g-3 justify-content-center pt-5">
+        <div class="col-12 d-flex flex-column align-items-center">
+          <h2 class="fw-bold text-center">Discover Our Popular Courses</h2>
+          <p class="text-center px-1">It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="d-sm-flex border shadow-sm">
+            <div class="course-img">
+              <img src="./images/courses/course1.jpg" alt="" class="img-fluid w-100 h-100">
             </div>
-            <div class="col-md-6 col-sm-12 col-12 col-12 bg-image d-flex align-items-center">
-              <div class="px-md-4 px-sm-2 px-2 py-5">
-                <h2 class="fw-bold">Explore The TechArt Institute</h2>
-                <p class="text-muted py-md-3 py-sm-1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
-                <span class="text-info d-lg-none d-md-inline-block">...See More</span>
-                <span class="d-block mt-2 d-lg-inline-block d-none">
-                  Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.
-                </span></p>
-                <div class="d-flex flex-wrap">
-                  <div class="d-flex flex-column flex-grow-1 p-2">
-                    <strong class="fw-bold fs-2">50</strong>
-                    <span class="text-muted">Online Course</span>
-                  </div>
-                  <div class="d-flex flex-column flex-grow-1 p-2">
-                    <strong class="fw-bold fs-2">100+</strong>
-                    <span class="text-muted">Expert instructor</span>
-                  </div>
-                  <div class="d-flex flex-column flex-grow-1 p-2">
-                    <strong class="fw-bold fs-2">5k+</strong>
-                    <span class="text-muted">Students</span>
-                  </div>
-                </div>
-                <button class="btn btn-info mt-lg-5 text-white fw-semibold mt-sm-3 mt-4">Read more</button>
+            <div class="p-2">
+              <h5 class="fw-bold">Full Stack Development</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab
+                architecto ut sed laudantium.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fs-6 fw-semibold">Price: 1000BDT</span>
+                <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
               </div>
             </div>
           </div>
-        </section>
-        <!-- ====== About TechArt section end ====== -->
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="d-sm-flex border shadow-sm">
+            <div class="course-img">
+              <img src="./images/courses/course2.jpg" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="p-2">
+              <h5 class="fw-bold">Python Programming</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab
+                architecto ut sed laudantium.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fs-6 fw-semibold">Price: 1000BDT</span>
+                <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="d-sm-flex border shadow-sm">
+            <div class="course-img">
+              <img src="./images/courses/course7.jpg" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="p-2">
+              <h5 class="fw-bold">Java Programming</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab
+                architecto ut sed laudantium.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fs-6 fw-semibold">Price: 1000BDT</span>
+                <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="d-sm-flex border shadow-sm">
+            <div class="course-img">
+              <img src="./images/courses/course4.jpg" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="p-2">
+              <h5 class="fw-bold">Android App Development</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab
+                architecto ut sed laudantium.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fs-6 fw-semibold">Price: 1000BDT</span>
+                <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="d-sm-flex border shadow-sm">
+            <div class="course-img">
+              <img src="./images/courses/course5.jpg" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="p-2">
+              <h5 class="fw-bold">UI/UX Design</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab
+                architecto ut sed laudantium.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fs-6 fw-semibold">Price: 1000BDT</span>
+                <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="d-sm-flex border shadow-sm">
+            <div class="course-img">
+              <img src="./images/courses/course6.jpg" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="p-2">
+              <h5 class="fw-bold">Data structure & Algorithm</h5>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas ab
+                architecto ut sed laudantium.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fs-6 fw-semibold">Price: 1000BDT</span>
+                <button class="btn btn-sm btn-warning fw-semibold">Enroll</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center pt-4">
+          <button class="btn btn-info fw-bold text-white">See More Courses</button>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Courses section end ====== -->
 
-        <!-- ====== Registration section start ====== -->
-        <section></section>
-        <!-- ====== Registration section end ====== -->
+    <!-- ====== About TechArt section start ====== -->
+    <section class="py-5 px-sm-0 px-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-12 align-self-sm-center">
+            <img src="./images/other/person1.jpg" alt="" class="img-fluid w-100">
+          </div>
+          <div class="col-md-6 col-sm-12 col-12 col-12 bg-image d-flex align-items-center">
+            <div class="px-md-4 px-sm-2 px-2 py-5">
+              <h2 class="fw-bold">Explore The TechArt Institute</h2>
+              <p class="text-muted py-md-3 py-sm-1">There are many variations of passages of Lorem Ipsum available, but
+                the majority have suffered alteration in some form, by injected humour
+                <span class="text-info d-lg-none d-md-inline-block">...See More</span>
+                <span class="d-block mt-2 d-lg-inline-block d-none">
+                  Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
+                  tend to repeat predefined.
+                </span>
+              </p>
+              <div class="d-flex flex-wrap">
+                <div class="d-flex flex-column flex-grow-1 p-2">
+                  <strong class="fw-bold fs-2">50</strong>
+                  <span class="text-muted">Online Course</span>
+                </div>
+                <div class="d-flex flex-column flex-grow-1 p-2">
+                  <strong class="fw-bold fs-2">100+</strong>
+                  <span class="text-muted">Expert instructor</span>
+                </div>
+                <div class="d-flex flex-column flex-grow-1 p-2">
+                  <strong class="fw-bold fs-2">5k+</strong>
+                  <span class="text-muted">Students</span>
+                </div>
+              </div>
+              <button class="btn btn-info mt-lg-5 text-white fw-semibold mt-sm-3 mt-4">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== About TechArt section end ====== -->
 
-        <!-- ====== Success-full student gallery section start ====== -->
-        <section></section>
-        <!-- ====== Success-full student gallery section end ====== -->
+    <!-- ====== Registration section start ====== -->
+    <section class="my-5 px-sm-0 px-2">
+      <div class="container bg-info rounded-4">
+        <div class="row justify-content-md-between py-5 text-md-start text-sm-center text-center">
+          <div class="text-white col-lg-6 col-md-8 ps-md-5">
+            <h3 class="fs-2 fw-bold">Ready to join?</h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout.</p>
+          </div>
+          <div class="col-lg-2 col-md-3 align-self-center">
+            <button type="button" class="btn btn-light text-info fw-semibold" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">Register Now</button>
+          </div>
+        </div>
+        <!-- ---- Registration form start ---- -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Register Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="row mb-3">
+                    <label for="fname" class="col-sm-3 col-form-label">First Name</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="fname" placeholder="first name">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="lname" class="col-sm-3 col-form-label">Last Name</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="lname" placeholder="last name">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="username@gmail.com">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="password" class="col-sm-3 col-form-label">Password</label>
+                    <div class="col-sm-9">
+                      <input type="password" class="form-control" id="password" placeholder="********">
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ---- Registration form end ---- -->
+      </div>
+    </section>
+    <!-- ====== Registration section end ====== -->
 
-        <!-- ====== Feedback section start ====== -->
-        <section></section>
-        <!-- ====== Feedback section end ====== -->
+    <!-- ====== Success-full student gallery section start ====== -->
+    <section></section>
+    <!-- ====== Success-full student gallery section end ====== -->
 
-        <!-- ====== FAQ section start ====== -->
-        <section></section>
-        <!-- ====== FAQ section end ====== -->
+    <!-- ====== Feedback section start ====== -->
+    <section></section>
+    <!-- ====== Feedback section end ====== -->
 
-        <!-- ====== Trusted companies section start ====== -->
-        <section></section>
-        <!-- ====== Trusted companies section end ====== -->
-    </main>
-    <!-- ====== Main content section end ====== -->
+    <!-- ====== FAQ section start ====== -->
+    <section></section>
+    <!-- ====== FAQ section end ====== -->
 
-    <!-- ====== Footer section start ====== -->
-    <footer></footer>
-    <!-- ====== Footer section end ====== -->
-    
-    <!-- Bootstrap JS CDN link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ====== Trusted companies section start ====== -->
+    <section></section>
+    <!-- ====== Trusted companies section end ====== -->
+  </main>
+  <!-- ====== Main content section end ====== -->
+
+  <!-- ====== Footer section start ====== -->
+  <footer></footer>
+  <!-- ====== Footer section end ====== -->
+
+  <!-- Bootstrap JS CDN link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
